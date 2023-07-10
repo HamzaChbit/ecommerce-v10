@@ -19,7 +19,7 @@ export default function HeroBanner({ heroBanner }) {
 
         <div>
           {/* NOTE: Since the slug is the same as product name, we can navigate to /product/heroBanner.product which is the name of the product used on the banner */}
-          <Link href={`/product/${heroBanner.product}`}>
+          <Link  href='/product/headphones_new'>
             <button type='button'>{heroBanner.buttonText}</button>
           </Link>
           <div className='desc'>
