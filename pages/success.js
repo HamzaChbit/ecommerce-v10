@@ -33,7 +33,7 @@ export default function Success() {
         <p className='description'>
           If you have any questions, please email
           <a className='email' href='mailto:info@emanuelefavero.com'>
-            info@emanuelefavero.com
+           hamzachbit@gmail.com
           </a>
         </p>
         <Link href='/'>
