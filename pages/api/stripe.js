@@ -38,7 +38,7 @@ export default async function handler(req, res) {
 
           return {
             price_data: {
-              currency: 'eur',
+              currency: 'usd',
               product_data: {
                 name: item.name,
                 images: [newImage],
@@ -58,7 +58,7 @@ export default async function handler(req, res) {
         // ? REDIRECT URLS when stripe checkout is successful or canceled
         success_url: `${req.headers.origin}/success`,
         cancel_url: `${req.headers.origin}/canceled`,
-        automatic_tax: { enabled: true },
+      
       }
 
       // Create Checkout Sessions from body params.
